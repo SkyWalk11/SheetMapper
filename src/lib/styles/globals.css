@@ -1,0 +1,12 @@
+/* Base styles — import this in app/globals.css or alongside it */
+@import "./colors.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}

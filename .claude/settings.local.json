@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm build:*)",
+      "Bash(pnpm add:*)",
+      "Bash(rm -rf src/app/\\\\\\(pages\\\\\\)/login src/app/\\\\\\(pages\\\\\\)/dashboard src/app/api/auth src/components/forms/LoginForm.tsx src/lib/services/authService.ts src/lib/types/auth.schema.ts src/context/AuthContext.tsx)",
+      "Bash(npx tsc:*)",
+      "Bash(timeout 20 pnpm dev)"
+    ]
+  }
+}
