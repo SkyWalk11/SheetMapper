@@ -5,9 +5,11 @@ A browser-based tool for importing Excel or CSV files, transforming their struct
 ## What it does
 
 ### 1. Import
+
 Drop or select any `.xlsx`, `.xls`, or `.csv` file. The original data is previewed immediately (first 5 rows). Excel date serials (e.g. `45554`) are automatically converted to readable dates (`19/09/2024`).
 
 ### 2. Row Filters
+
 Filter which rows flow into the output before any transformation happens.
 
 - Pick a column, choose an operator, and enter a value
@@ -16,6 +18,7 @@ Filter which rows flow into the output before any transformation happens.
 - A live counter shows how many rows match (e.g. "47 of 200 rows match")
 
 ### 3. Column Mapping
+
 Control which columns appear in the output and how they are named and transformed.
 
 - **Enable / disable columns** via chip selector — disabled columns are excluded from the output entirely
@@ -27,6 +30,7 @@ Control which columns appear in the output and how they are named and transforme
   - **Default value** — fallback when no condition matches (leave blank to keep the original value)
 
 ### 4. Column Groups
+
 Derive new columns from existing mapped columns.
 
 - **Sum** — add numeric columns together into one output column
@@ -34,15 +38,17 @@ Derive new columns from existing mapped columns.
 - Live formula preview shows exactly what will be computed (e.g. `full_name = first " " + last`)
 
 ### 5. Live Preview
+
 The mapped result updates as you type — shows the first 50 rows after all transformations are applied (filter → map → group).
 
 ### 6. Export
+
 A floating button exports the **full dataset** (all matching rows, not just the preview):
 
-| Format | Button |
-|--------|--------|
-| CSV    | ↓ CSV  |
-| JSON   | ↓ JSON |
+| Format        | Button  |
+| ------------- | ------- |
+| CSV           | ↓ CSV   |
+| JSON          | ↓ JSON  |
 | Excel (.xlsx) | ↓ Excel |
 
 ---
@@ -51,9 +57,9 @@ A floating button exports the **full dataset** (all matching rows, not just the 
 
 1. Open the app at `http://localhost:3000/excel-mapper`
 2. Upload your file using the drop zone or file picker
-3. *(Optional)* Add row filters to narrow down which rows you want
+3. _(Optional)_ Add row filters to narrow down which rows you want
 4. Use the column mapping section to rename columns and set value transformation rules
-5. *(Optional)* Add column groups to compute derived columns
+5. _(Optional)_ Add column groups to compute derived columns
 6. Watch the mapped result update live
 7. Click **↓ CSV**, **↓ JSON**, or **↓ Excel** to download the full transformed output
 8. Click **✕ Clear** in the top-right to start over with a new file
