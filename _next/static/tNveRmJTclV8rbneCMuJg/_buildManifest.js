@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/SheetMapper//_next/:path+",
+        "destination": "/SheetMapper/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
