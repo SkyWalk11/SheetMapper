@@ -1,0 +1,4 @@
+1:"$Sreact.fragment"
+2:I[9012,["/SheetMapper/_next/static/chunks/08wb~212h1fh3.js","/SheetMapper/_next/static/chunks/154hg052uha2a.js"],"default"]
+3:I[34568,["/SheetMapper/_next/static/chunks/08wb~212h1fh3.js","/SheetMapper/_next/static/chunks/154hg052uha2a.js"],"default"]
+0:{"rsc":["$","$1","c",{"children":[null,["$","div",null,{"className":"mx-auto w-full max-w-4xl px-8 py-12","children":[["$","h1",null,{"className":"mb-8 text-3xl font-semibold","children":"Components"}],["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"UAy2ho4BSFLAi3embZxAx"}
